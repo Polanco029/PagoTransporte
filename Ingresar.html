@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="EstilosIngreso.css">
+	<title>Registro</title>
+</head>
+<body>
+	<header>
+		<h1><a href="index.html">Volver al Menu</a></h1>
+		<nav class="navegacion">
+			
+		</nav>
+	</header>
+ 
+
+</article>
+		<form class="ingreso" id="myForm" action="procesar.php" method="post">
+			  	<fieldset>
+				    <div class="form-group">
+				      <label for="exampleInputEmail1" class="nombre">Nombre</label>
+				      <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp" placeholder="Ingresa tu nombre" onkeyup="actualizarBarraCarga()">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleInputEmail1" class="apellidos">Apellidos</label>
+				      <input type="text" class="form-control" id="apellidos" aria-describedby="emailHelp" placeholder="Ingresa tus apellidos" onkeyup="actualizarBarraCarga()">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleInputEmail1" class="correo">Correo Electronico</label>
+				      <input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Correo" onkeyup="actualizarBarraCarga()">
+				    </div>
+				    <div class="form-group">
+				      <label for="exampleInputPassword1" class="contraseña">Contraseña</label>
+				      <input type="password" class="form-control" id="contra" placeholder="Ingresa tu contraseña" onkeyup="actualizarBarraCarga()">		      
+				      <small id="emailHelp" class="form-text text-muted"></small>
+				    </div>
+				    <nav>
+			    		<button type="button" class="btn btn-primary" onclick="validarCampos()">Enviar</button>
+			     		<button type="button" class="btn btn-primary" onclick="eliminarCampos()">Borrar</button>
+		  		    </nav>
+				</fieldset>
+		</form>
+
+		<script src="regi.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+article{
+  color: white;
+}
+
+body{
+  background-image: url(bak5.jpg);
+  justify-content: left;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+
+section{
+  color: white;
+  padding-top: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+article {
+  font: oblique bold 120% cursive;
+}
+
+.Carru {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.IMG4 {
+  width: 240px; /* Modifica el ancho de la imagen  */
+  height: 200px; /* Modifica el alto de la imagen  */
+   float: right; /* Alinea la imagen hacia la derecha */
+   display: flex;
+}
+
+
+.Info{
+  
+
+    align-items: center;
+    height: 70vh;
+    min-height: 700px;
+}
+img.cam1 {
+  display: block;
+  width: 600px;
+  height: 430px;
+  margin: auto;
+}
+
+img.cam2 {
+  display: block;
+  width: 600px;
+  height: 430px;
+  margin: auto;
+}
+
+img.cam3 {
+  display: block;
+  width: 600px;
+  height: 430px;
+  margin: auto;
+}
+
+header {
+  text-align: center; /* Centra el contenido del encabezado horizontalmente */
+}
+
+.Enc{
+  color: Blue;
+  background-image: url(fondo.jpg);
+  
+ 
+}
